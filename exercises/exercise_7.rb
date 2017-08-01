@@ -10,3 +10,6 @@ puts "Exercise 7"
 puts "----------"
 
 # Your code goes here ...
+
+new_store =  Store.create(name: 'Lolz')
+new_store.save!
